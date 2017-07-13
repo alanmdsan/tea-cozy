@@ -2,20 +2,35 @@ body {
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
+  background-color: #FFF196;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 15px;
+}
+
+h4 {
+  font-size: 28px;
+  margin: 15px;
 }
 
 header {
+  position: fixed;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
   width: 100%;
+  height: 100px;
   background-color: #FFF196;
   color: #333333;
+  border-bottom: 3px solid #FCFDFB;
 }
 
 header nav {
   margin-right: 20px;
+  flex-shrink: 0;
 }
 
 nav span {
@@ -34,4 +49,25 @@ nav span a {
   margin: 0;
   margin-left: 25px;
   font-family: 'Sacramento', cursive;
+  flex-shrink: 0;
+}
+
+.mission {
+  position: relative;
+  background-image: url('../images/back_1st_img-mission-background.jpg');
+  background-color: #FFF196;
+  height: 700px;
+  width: 1200px;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.mission .text-content {
+  background-color: #FFF196;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
 }
