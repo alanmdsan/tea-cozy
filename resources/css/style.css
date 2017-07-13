@@ -10,6 +10,8 @@ header {
   align-items: center;
   height: 100px;
   width: 100%;
+  background-color: #FFF196;
+  color: #333333;
 }
 
 header nav {
@@ -18,70 +20,18 @@ header nav {
 
 nav span {
   font-size: 26px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 nav span a {
   text-decoration: none;
   margin: 0 5px;
+  color: #333333;
 }
 
 .logo {
   font-size: 50px;
   margin: 0;
   margin-left: 25px;
-}
-
-/* colors */
-
-.back-1st {
-  background-color: #FFF196;
-}
-
-.back-2nd {
-  background-color: #B04238;
-}
-
-.green-1st {
-  background-color: #2DB073;
-}
-
-.green-2nd {
-  background-color: #31B069;
-}
-
-.green-3rd {
-  background-color: #99FCC5;
-}
-
-.greenery {
-  background-color: #88B04B;
-}
-
-.gray {
-  background-color: #E2E3E1;
-}
-
-.white {
-  background-color: #FCFDFB;
-}
-
-.dark-gray-color {
-  color: #333333;
-}
-
-/* fonts */
-
-/* main font */
-.josefin {
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-/* secondary */
-.sacramento {
   font-family: 'Sacramento', cursive;
-}
-
-/* not using */
-.lora {
-  font-family: 'Lora', serif;
 }
