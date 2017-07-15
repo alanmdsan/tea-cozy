@@ -71,3 +71,44 @@ nav span a {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
 }
+
+.tea-of-month {
+  position: relative;
+  top: 100px;
+  width: 1000px;
+  background-color: #FFF196;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
+}
+
+.tea-of-month .text-content {
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.tea-of-month-images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.tea-of-month-images-item {
+  margin: 5px 10px;
+}
+
+.tea-of-month-images-item img {
+  border: 2px dashed #2DB073;
+}
+
+.tea-of-month-images-item h4 {
+  font-family: 'Sacramento', cursive;
+  margin: 10px auto;
+}
