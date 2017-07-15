@@ -11,6 +11,11 @@ h2 {
   margin: 15px;
 }
 
+h3 {
+  font-size: 32px;
+  margin: 15px;
+}
+
 h4 {
   font-size: 28px;
   margin: 15px;
@@ -113,4 +118,47 @@ nav span a {
 .tea-of-month-images-item h4 {
   font-family: 'Sacramento', cursive;
   margin: 10px auto;
+}
+
+.locations {
+  position: relative;
+  background-image: url('../images/back_2nd_img-locations-background.jpg');
+  background-color: #FFF196;
+  height: 500px;
+  width: 1200px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+.locations .text-content {
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.locations-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.location-item {
+  height: 300px;
+  width: 300px;
+  background-color: #FFF196;
+  margin: 0 20px;
+}
+
+.location-item h3 {
+  margin: 30px 15px;
+}
+
+.location-item h4 {
+  font-size: 22px;
 }
